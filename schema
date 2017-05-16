@@ -2,12 +2,10 @@ users
 
 id: integer: not null, prtimary key
 username: string: not null, indexed, unique
-firstName: string, indexed
-lastName: string, indexed
 email: string: not null, indexed, unique
 password_digest: string: not null
 session_token: string: not null, indexed, unique
-image: image
+image_url: string
 
 audiobooks
 
@@ -16,4 +14,10 @@ author:	text: not null, indexed
 title: string: not null, indexed
 description: text: not null
 user_id: integer: not null, foreign key (references users), indexed
-image: image
+image_url: string
+
+
+self_join table:
+
+username: friends
+

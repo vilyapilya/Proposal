@@ -32,9 +32,5 @@ AudioBooksSearch
 	AutoSearch
 	"/books-search"
 
-ListOfFriends
-	Image
-	Username
-	Unfriend button
-	"/username/frineds"
+PlayBar
 

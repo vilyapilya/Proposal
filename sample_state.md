@@ -1,25 +1,27 @@
 {
 	currentUser:{
 		id: 1,
-		username: "user1"
+		username: "user1",
+        friends: [1, 2, 3]
     },
     forms: {
-    	signUp: {errors: []},
-    	signIn: {errors: []},
-    	createBook: {errors: ["title can't be blanck", "author can't be black"]}
-    }
-    usersBooks: {
+    	signUp: {},
+    	signIn: {},
+    	createBook: {}
+    },
+    errorForms :{
+        errors: [] 
+    },
+    books: {
     	1: {
     	  title: "War and Peace",
     	  author: "Leo Tolstoy",
     	  description: "A very long story"
         }
-    }
-    friendsBooks: {
-    	1: {
-    	  title: "The Raven",
-    	  author: "Edgar Allan Poe",
-    	  description: "A very sad poem"
-        }
+    },
+    bookDeatil: {
+        author: Edgar Allan Poe,
+        title: Raven,
+        description: "A vary sad poem"
     }
 }

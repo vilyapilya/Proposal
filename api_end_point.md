@@ -5,15 +5,15 @@ HTML API
 JSON API
 	Users
 		POST /api/users
-		GET /api/index - shows friends
+		GEt /api/users/:id - show profile
+		GET /api/:id/friends - shows friends
 	Session
 		POST /api/session
 		DELETE /api/session
 	Audiobooks
-		POST /api/books/:usersId
-		DELTE /api/books/:userId/:id
-		GET /api/books/:userId/:id - shows user's books on profile page
-		GET /api/books/ - shows books of friends
-		PATCH /api/books/:userId/:id - edits user's book
+		POST /api/books
+		DELTE /api/books/:id
+		GET /api/books - shows user's books on profile page/show friends book
+		PATCH /api/books/:id - edits user's book
 		GET /api/books/:id - shows book's details
 
