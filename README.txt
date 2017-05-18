@@ -20,3 +20,18 @@ Additional functionality
 My plan is to add bookmarks to the audiobook playbar, so a user can start playing the book from the place where he/she stopped.
 
 
+
+Timeline
+
+Phase 1: Backend setup and Front End User Authentication (2 days)
+Objective: Functioning rails project with front-end Authentication
+
+Phase 2: Ab model, API, controllers and components (2 day)
+Objective: Ab can be created, read, edited and destroyed through API
+
+Phase 3: Ab components, playbar component(2 days)
+Objective: Ab can be created, read, edited and destroyed through front end. Can be played contin.
+
+
+Phase 4: Friends(2 days)
+Objective: Database setup for friends, json, components to display friends
